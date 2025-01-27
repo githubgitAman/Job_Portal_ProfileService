@@ -11,7 +11,7 @@ public class ApplicatantProfileService implements ProfileService{
     public Long createProfile(String email) {
         Profile profile = new Profile();
         profile.setEmail(email);
-        profile.setJobTitle(ProfileDTOs.getJobTitle());
+
 
 
         return 0L;
